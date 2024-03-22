@@ -1,0 +1,36 @@
+.Fcontainer{
+               border-top: 1px solid #292929;  
+                text-align: center;
+               padding: 30px 30px 100px 30px;
+               margin-top: 20px;
+               // border: 1px solid wheat;
+               
+
+               .ttl{
+                      float: left;
+                      font-weight: 800;        
+               }
+               span{
+                         padding: 5px 20px;     
+               }
+}
+
+@media only screen and (max-width: 920px) {
+       .Fcontainer{ 
+              padding: 10px 5px 40px 10px;
+              margin-top: 16px;
+              // border: 1px solid wheat;
+              
+              span{
+                        padding: 1px 10px;     
+              }
+}       
+    
+}
+
+
+@media only screen and (max-width: 560px) {
+
+             
+  
+}

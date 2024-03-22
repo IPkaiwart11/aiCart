@@ -1,0 +1,49 @@
+.cContainer{
+               margin-top: 20px;
+     .Ctitle{
+            margin: 5px 10px;
+            font-size: larger;   
+     }   
+    .cat{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-around;
+            padding: 5px 0px;   
+    }           
+}
+// @media only screen and (max-width: 920px) {
+//         .cContainer{
+//                 margin-top: 20px;
+//       .Ctitle{
+//              margin: 5px 10px;
+//              font-size: larger;   
+//       }   
+//      .cat{
+//              display: flex;
+//              flex-direction: row;
+//              width: 100%;
+//              justify-content: space-around;
+//              padding: 5px 0px;   
+//      }           
+//  }    
+    
+//       }
+
+      
+      @media only screen and (max-width: 560px) {
+        .cContainer{
+      .Ctitle{
+             margin: 5px 1px; 
+      }   
+     .cat{
+             display: flex;
+             flex-direction: column;
+             width: 100%;
+             justify-content: space-around;
+             padding: 5px 5px;   
+     }           
+ }
+                   
+        
+      }

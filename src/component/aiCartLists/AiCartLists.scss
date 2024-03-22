@@ -1,0 +1,96 @@
+.bodycontainer{
+               margin-top: 30px;
+               color:#CDCDCD;
+              //  border: 1px solid white;
+.cartContainer{
+               display: flex;
+               flex-direction: column;
+               width: 31%;
+               float: left;
+               margin:  1%;
+               height:fit-content;
+               // padding: 1px;
+              //  border: 1px solid #292929;
+              border: 1px solid white;
+              
+              
+               border-radius: 30px;
+               overflow: hidden;
+               // overflow:inherit;
+              //  border-top-left-radius: 30px;
+              // img{
+              //   border-top-left-radius: 30px;
+              //   border-top-right-radius: 30px;
+              // }
+              .textcontainer{
+               padding: 10px 20px;              
+              }
+               .cartline1{
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-between;
+                             .aicart{
+                              font-weight: 800;
+                             }
+               }
+               .thirdline{
+                              // padding: 10px 10px;
+                              // border: 1px solid white;
+               //    min-width: max-content;
+                         span{     
+                          border: 1px solid #535353;
+                          border-radius: 40px;
+                          margin: 5px 5px;
+                          padding: 2px 7px;
+                          float: left;
+                         }
+                              
+               }
+}
+.pagination{
+               display: flex;
+               flex-direction: row;
+               justify-content: right;  
+               width: 100%;
+               // border: 1px solid white;
+               padding: 80px 0px;
+               div{
+                       span{
+                              border: 1px solid white;
+                              margin: 5px;
+                              padding: 5px 10px;
+                              // position:;
+                       }       
+               }
+
+  }
+}
+
+@media only screen and (max-width: 920px) {
+               .bodycontainer {
+                 margin-top: 20px; 
+                 .cartContainer {
+                              width: 47%; 
+                              margin: 1%; 
+                            }
+               }
+             
+               .pagination {
+                 padding: 20px 0px; 
+               }
+             }
+  
+             
+             @media only screen and (max-width: 560px) {
+               .bodycontainer {
+                              margin-top: 20px; 
+                              .cartContainer {
+                                           width: 97%; 
+                                           margin: 1%; 
+                                         }
+                            }
+                          
+               //              .pagination {
+               //                padding: 20px 0px; /* Adjusted padding */
+               //              }
+             }
